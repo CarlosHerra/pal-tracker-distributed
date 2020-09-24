@@ -1,0 +1,9 @@
+USER_ID=1
+ACCOUNT_ID=1
+PROJECT_ID=1
+https://registration-pal-carlos-herra.apps.evans.pal.pivotal.io/users/${USER_ID}
+https://registration-pal-carlos-herra.apps.evans.pal.pivotal.io/accounts?ownerId=${USER_ID}
+https://registration-pal-carlos-herra.apps.evans.pal.pivotal.io/projects?accountId=${ACCOUNT_ID}
+https://allocations-pal-carlos-herra.apps.evans.pal.pivotal.io/allocations?projectId=${PROJECT_ID}
+https://backlog-pal-carlos-herra.apps.evans.pal.pivotal.io/stories?projectId=${PROJECT_ID}
+https://timesheets-pal-carlos-herra.apps.evans.pal.pivotal.io/time-entries?userId=${USER_ID}
